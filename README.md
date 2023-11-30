@@ -1,11 +1,50 @@
-# MLSC-First-Year-Task-Projects
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <input type="text" id="inputBox" placeholder="0" />
+        <div>
+          <button class="button operator">AC</button>
+          <button class="button operator">DEL</button>
+          <button class="button operator">%</button>
+          <button class="button operator">/</button>
+        </div>
+        <div>
+          <button class="button">7</button>
+          <button class="button">8</button>
+          <button class="button">9</button>
+          <button class="button operator">*</button>
+        </div>
+        <div>
+          <button class="button">4</button>
+          <button class="button">5</button>
+          <button class="button">6</button>
+          <button class="button operator">-</button>
+        </div>
+        <div>
+          <button class="button">1</button>
+          <button class="button">2</button>
+          <button class="button">3</button>
+          <button class="button operator">+</button>
+        </div>
 
-### This Reporsitory is being setup for projects, which are being developed by first year students as their first task in what ever domain they are studying about
-### Don't Forget to star the repository🙂
-### Steps to Push your project
-1) Fork the repository
-2) Clone it to your local machine
-3) Create and build the task project in the repective folder of your domain - Give the project folder your name
-4) Commit your changes in a new branch
-5) Push your commits(and your branch obviously)
-6) Create your Pull request, and voila🚀, it's done🙌🏻
+        <div>
+          <button class="button">00</button>
+          <button class="button">0</button>
+          <button class="button">.</button>
+          <button class="button equalBtn">=</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
